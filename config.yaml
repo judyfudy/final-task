@@ -15,5 +15,6 @@ spec:
       containers:
         - name: fina-task
           image: gcr.io/final-task-322012/fina-task:0.1
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
