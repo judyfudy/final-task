@@ -1,6 +1,6 @@
 steps:
   - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['container', 'clusters', 'get-credentials', 'example-cluster', '--zone=us-central1-a', '--project=final-challenge-323609']
+    args: ['auth', 'activate-service-account', '--key=/home/danylo_bubnii_knm_2018/github_judyfudy_final-task/k8s-creds.json']
   - name: 'gcr.io/cloud-builders/mvn'
     args: ['clean', 'install']
   # - name: 'gcr.io/cloud-builders/mvn'
