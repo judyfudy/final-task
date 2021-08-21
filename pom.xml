@@ -69,7 +69,9 @@
                     <password>root</password>
                     <!-- Note: You can choose different values for the SSL properties (or omit them entirely) depending on your needs. -->
                     <!-- <url>jdbc:mysql://google/hello_world?cloudSqlInstance=${instance}&amp;socketFactory=com.google.cloud.sql.mysql.SocketFactory&amp;useSSL=true&amp;verifyServerCertificate=true&amp;requireSSL=true</url> -->
-                    <url>jdbc:mysql://35.222.120.152:3306/hello_world?cloudSqlInstance=final-task-322012:us-central1:mysql-com.example.demo.test&amp;socketFactory=com.google.cloud.sql.mysql.SocketFactory&amp;useSSL=false&amp;requireSSL=false</url>
+                    <url>
+                        jdbc:mysql://127.0.0.1:3306/hello_world?cloudSqlInstance=final-challenge-323609:us-central1:final-task-db&amp;socketFactory=com.google.cloud.sql.mysql.SocketFactory&amp;useSSL=false&amp;requireSSL=false
+                    </url>
                     <user>root</user>
                 </configuration>
             </plugin>
