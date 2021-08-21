@@ -1,6 +1,6 @@
 steps:
   - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['auth', 'activate-service-account', '--key-file=/home/danylo_bubnii_knm_2018/github_judyfudy_final-task/k8s-creds.json']
+    args: ['auth', 'activate-service-account', '--key-file=k8s-creds.json']
   - name: 'gcr.io/cloud-builders/mvn'
     args: ['clean', 'install']
   # - name: 'gcr.io/cloud-builders/mvn'
