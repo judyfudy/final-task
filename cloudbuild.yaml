@@ -1,20 +1,20 @@
 steps:
   - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['container', 'clusters', 'get-credentials', 'sample-cluster', '--zone=us-central1-a', '--project=final-task-322012']
+    args: ['container', 'clusters', 'get-credentials', 'example-cluster', '--zone=us-central1-a', '--project=final-challenge-323609']
   - name: 'gcr.io/cloud-builders/mvn'
     args: ['clean', 'install']
-  - name: 'gcr.io/cloud-builders/mvn'
-    args: [ 'flyway:migrate' ]
-    env:
-      - 'GOOGLE_APPLICATION_CREDENTIALS=src/main/resources/creds-2.json'
+  # - name: 'gcr.io/cloud-builders/mvn'
+  #   args: [ 'flyway:migrate' ]
+  #   env:
+  #     - 'GOOGLE_APPLICATION_CREDENTIALS=src/main/resources/creds-2.json'
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '.', '-t', 'final-task-image']
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['tag', 'final-task-image', 'gcr.io/final-task-322012/fina-task']
+    args: ['tag', 'final-task-image', 'us-central1-docker.pkg.dev/final-challenge-323609/artifacts-repo/task-image']
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/final-task-322012/fina-task']
-  - name: 'gcr.io/cloud-builders/kubectl'
-    args: ['set', 'image', 'deployment/final-task-app', 'fina-task=gcr.io/final-task-322012/fina-task:latest']
-    env:
-      - 'CLOUDSDK_COMPUTE_ZONE=us-central1-a'
-      - 'CLOUDSDK_CONTAINER_CLUSTER=sample-cluster'
+    args: ['push', 'us-central1-docker.pkg.dev/final-challenge-323609/artifacts-repo/task-image']
+  #- name: 'gcr.io/cloud-builders/kubectl'
+  #  args: ['set', 'image', 'deployment/final-task-app', 'fina-task=gcr.io/final-task-322012/fina-task:latest']
+  # env:
+  #    - 'CLOUDSDK_COMPUTE_ZONE=us-central1-a'
+  #    - 'CLOUDSDK_CONTAINER_CLUSTER=example-cluster'
