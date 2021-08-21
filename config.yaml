@@ -13,8 +13,7 @@ spec:
         run: final-task-app
     spec:
       containers:
-        - name: fina-task
-          image: gcr.io/final-task-322012/fina-task:0.1
-          imagePullPolicy: Always
+        - name: task-image
+          image: us-central1-docker.pkg.dev/final-challenge-323609/artifacts-repo/task-image:latest
           ports:
             - containerPort: 8080
