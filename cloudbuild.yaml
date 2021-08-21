@@ -1,4 +1,6 @@
 steps:
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args: [ 'container', 'clusters', 'get-credentials', 'example-cluster', '--zone=us-central1-a', '--project=final-challenge-323609' ]
   - name: 'gcr.io/cloud-builders/mvn'
     args: ['clean', 'install']
   # - name: 'gcr.io/cloud-builders/mvn'
