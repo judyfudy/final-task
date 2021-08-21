@@ -3,10 +3,10 @@ steps:
     args: [ 'container', 'clusters', 'get-credentials', 'example-cluster', '--zone=us-central1-a', '--project=final-challenge-323609' ]
   - name: 'gcr.io/cloud-builders/mvn'
     args: ['clean', 'install']
-  # - name: 'gcr.io/cloud-builders/mvn'
-  #   args: [ 'flyway:migrate' ]
-  #   env:
-  #     - 'GOOGLE_APPLICATION_CREDENTIALS=src/main/resources/creds-2.json'
+  - name: 'gcr.io/cloud-builders/mvn'
+    args: [ 'flyway:migrate' ]
+    env:
+       - 'GOOGLE_APPLICATION_CREDENTIALS=sql-creds.json'
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '.', '-t', 'final-task-image']
   - name: 'gcr.io/cloud-builders/docker'
