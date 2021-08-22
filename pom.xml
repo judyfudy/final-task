@@ -41,8 +41,8 @@
         </dependency>
         <dependency>
             <groupId>com.google.cloud.sql</groupId>
-            <artifactId>mysql-socket-factory-connector-j-6</artifactId>
-            <version>1.2.1</version>
+            <artifactId>mysql-socket-factory-connector-j-8</artifactId>
+            <version>1.2.0</version>
         </dependency>
         <dependency>
             <groupId>org.flywaydb</groupId>
@@ -68,19 +68,11 @@
                     -->
                     <!-- Note: You can choose different values for the SSL properties (or omit them entirely) depending on your needs. -->
                     <!-- <url>jdbc:mysql://google/hello_world?cloudSqlInstance=${instance}&amp;socketFactory=com.google.cloud.sql.mysql.SocketFactory&amp;useSSL=true&amp;verifyServerCertificate=true&amp;requireSSL=true</url> -->
+                    <password>root</password>
                     <url>
-                        jdbc:mysql://35.232.33.107:3306/hello_world?cloudSqlInstance=final-challenge-323609:us-central1:db-migration-test
-                        &amp;
-                        socketFactory=com.google.cloud.sql.mysql.SocketFactory
-                        &amp;
-                        useSSL=true
-                        &amp;
-                        verifyServerCertificate=true
-                        &amp;
-                        requireSSL=true
+                        jdbc:mysql://35.232.33.107:3306/hello_world?cloudSqlInstance=final-challenge-323609:us-central1:db-migration-test&amp;socketFactory=com.google.cloud.sql.mysql.SocketFactory&amp;useSSL=true&amp;verifyServerCertificate=true&amp;requireSSL=true
                     </url>
                     <user>root</user>
-                    <password>root</password>
                 </configuration>
             </plugin>
         </plugins>
