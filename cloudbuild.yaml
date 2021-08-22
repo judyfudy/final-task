@@ -6,7 +6,7 @@ steps:
   - name: 'gcr.io/cloud-builders/mvn'
     args: [ 'flyway:migrate' ]
     env:
-       - 'GOOGLE_APPLICATION_CREDENTIALS=sql-creds.json'
+       - 'GOOGLE_APPLICATION_CREDENTIALS=src/main/resources/sql-creds.json'
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '.', '-t', 'final-task-image']
   - name: 'gcr.io/cloud-builders/docker'
