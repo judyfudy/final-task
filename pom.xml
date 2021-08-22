@@ -69,7 +69,7 @@
                     <!-- Note: You can choose different values for the SSL properties (or omit them entirely) depending on your needs. -->
                     <!-- <url>jdbc:mysql://google/hello_world?cloudSqlInstance=${instance}&amp;socketFactory=com.google.cloud.sql.mysql.SocketFactory&amp;useSSL=true&amp;verifyServerCertificate=true&amp;requireSSL=true</url> -->
                     <url>
-                        jdbc:mysql://127.0.0.1:3306/hello_world?cloudSqlInstance=final-challenge-323609:us-central1:final-task-db
+                        jdbc:mysql://35.232.33.107:3306/hello_world?cloudSqlInstance=final-challenge-323609:us-central1:db-migration-test
                         &amp;
                         socketFactory=com.google.cloud.sql.mysql.SocketFactory
                     </url>
