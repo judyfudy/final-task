@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "final-challenge-323609",
+  "private_key_id": "93e39ec268e38e28e545577dd6b096ed7898e4a8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCup6QUspm8WQih\nkGtZ4EkGEkgP65LcvXbJRfELXHKLPyjc1hqWBKvzmjoDbE84DiGnZ4tV5M6/mgmA\n3eabsAm8EexRrQWs3NjQrXPzsNG1ELeYqVLsCbJiG7vZMpxRgon9acXXr3GQGCbh\nDLjjUfEoffsKyCSMM2yzK300dXEVDrOIUFGmt6UkkCbnGVuBfqRQEIqnB+3hgxoX\nAFewvZTGJ5864vdINWiuw6ir7Zk7U7+BBDsGKsMRowp24ACoKFFuj++Dt2jO4N9P\nhjCO6LzBKuB3GVTtIi4fp6Dd3p8sO4K6gX+b+AyOkVQo+kT43Lf6CMQCu7U09Ezb\nNvmnHWJlAgMBAAECggEADj86kT2ocMbKf3NqbmBvVIF1Q2cyCbOi1vRPn1+hMF6s\nlKcacBZdeHeiN9lD9QyiDifSI+WQP+zuzYZMY3LOuHq1zkvQ5LL3NL6RcNWBpcWB\nVICrdPmthXdBsYwBWFzPqM5SBzAWkWyG72C8TD7I70anjc+Zu54ORedMRVU3LkJs\nNy4U5jjqXuEDJSMglHNVEXojaaoZodgRt0lmhaFTF+FolK0NUHD+ggVTIL7qoitP\nXZ1QYfmD7JTIPgZ4XhfNARlo2ES4BJlVl7+MdqT9rMC4pp+NGebxwBbc5Wjgek8j\nMG0b8mPm7Ob1wdHTg6DiE1Iy7B+lUd+EoxJdDCstgQKBgQDcuvMtoKsHUDAHf0q9\nP0vR8OPrm3vAq6HUeCWahr1I0d4RihXHwyHNxg1fF19dpMBtWTfuABzQaScK5SwZ\nykQMPS4owA3XOpEEWfNiKXmgUHv6X3qNKUc3IhqpN1MLVk4lXEuz7Z1nbACYhEbu\nkGhLP+cMT8S3gbGUdcR1pW3fcQKBgQDKj/WbV3b9zbNxkjim5flJF0mAgMvmJmEN\nuF9MGmXH7AbfqvoaeWCoE7jRemhWKTS4TOzdGYBOHcWbo8UGu2fPKHSM7uBuwDTv\nHY09xTuR9yD+ERkYVgCGN3azco02BH23zFWTAfiCz1gyE6AF/DZ5W/liu7+pQHwo\nzhQsinAgNQKBgQChHp2vap4tAm1sq5AEwBU6M9pK+v3EUAQasXDRcRTt+LNenirz\n3A3qxGyyQr9L/ZywtPVMdyyRPJBRNaORV8GAJZByEm6H8qo0QOyVdKzhRp6YzeUI\n8V6Ycf6AEnA90EvOnaZsuj+xZHay3athLGvUsdqXdAql4LedJLG5Jn4jIQKBgQCx\nYnXzjhme0vb0WtcPmM6/6gus450rM6rEKBQUAf3loFS4o/KXInm5VmP/1ZDu+vC3\nAG5ghIduYPX+gOD2L0EOEWBXVozlj54LU7avRDwRa/fRZcmzHQUihAmHxaXRiwdI\n4ECEFzK34rlaSQNWmnJdvmRayQ1jOxw/Y5AZHTZpjQKBgQDEtfadkBlwCMd4SJS1\nPEcA3VIZ+X6nAJqKJNJ9SbhUlohbgX7OTzxWW5r1fPImalJ6Sosw6a7j4cWq7k6X\nUbSmfYJfUo9kRmT62cOMv9+K3Ug4JZNDZwhSpIFTvqJoxLIsLX0ttrH5pqfEBE72\nOt5Qg8a4+LyMJs7tNDe3faiDcQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "sql-service-account@final-challenge-323609.iam.gserviceaccount.com",
+  "client_id": "106704703765644392675",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sql-service-account%40final-challenge-323609.iam.gserviceaccount.com"
+}
