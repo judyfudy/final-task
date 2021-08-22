@@ -47,7 +47,7 @@
         <dependency>
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-core</artifactId>
-            <version>7.12.1</version>
+            <version>7.14.0</version>
         </dependency>
     </dependencies>
 
@@ -60,7 +60,7 @@
             <plugin>
                 <groupId>org.flywaydb</groupId>
                 <artifactId>flyway-maven-plugin</artifactId>
-                <version>4.0.2</version>
+                <version>7.14.0</version>
                 <configuration>
                     <!--
                          Normally, I would specify these in a flyway.properties file.
